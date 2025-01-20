@@ -1,4 +1,4 @@
-// triangle function
+// --------------------------------------triangle function
 function triangleArea(){
     // base value 
     const triangelBaseInput = document.getElementById("triangle-base")
@@ -14,7 +14,7 @@ function triangleArea(){
     document.getElementById("triangle-area").innerText = area;
 
    }
-// rectangle function
+// ----------------------------------------rectangle function
 function rectangleArea(){
     const rectangleWidthInput = document.getElementById("rectangle-width")
     const rectangleWidthText = rectangleWidthInput.value
@@ -28,4 +28,21 @@ function rectangleArea(){
     // Area calculation
     const area = width * length;
     document.getElementById("rectangle-area").innerText = area;
+}
+
+//------------------------------------------- Parallelogram function 
+function ParallelogramArea(){
+    // parallelogram-base value
+    const parallelogramBaseInput = document.getElementById("parallelogram-base")
+    const parallelogramBaseText = parallelogramBaseInput.value
+    const parallelogramBase = parseFloat(parallelogramBaseText);
+    
+    // height value
+    const parallelogramHeightInput = document.getElementById("parallelogram-height")
+    const parallelogramHeightText = parallelogramHeightInput.value
+    const parallelogramHeight = parseFloat(parallelogramHeightText);
+    
+    // Area calculation
+    const area = parallelogramBase * parallelogramHeight;
+    document.getElementById("parallelogram-area").innerText = area;
 }
