@@ -9,7 +9,19 @@
 </head>
 <body class="m-8">
     <header>
-
+        <div class="navbar bg-cyan-100 mb-4 rounded-lg">
+            <div class="flex-1">
+              <div class="p-4">
+                <h1 class="text-4xl text-black font-bold">Interactive</h1>
+              <p class="text-slate-500 text-2xl font-semibold">Geometry Genius</p>
+              </div>
+            </div>
+            <div class="flex-none pr-4">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded">
+                    Blog
+                  </button>
+            </div>
+          </div>
     </header>
     <main>
         <!-- main content container  -->
@@ -17,7 +29,7 @@
           <!-- Shape container  -->
           <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <!-- triangle -->
-            <div class="card bg-base-100 w-96 border-2 border-inherit mb-4 pt-8">
+            <div class="card bg-base-100 w-96 border-2 border-inherit mb-4 pt-8 hover:bg-pink-200">
                 <figure>
                   <img
                     src="images/triangle.png"
@@ -38,7 +50,7 @@
                 </div>
               </div>
               <!-- Rectangle -->
-            <div class="card bg-base-100 w-96 border-2 border-inherit mb-4 pt-8">
+            <div class="card bg-base-100 w-96 border-2 border-inherit mb-4 pt-8 hover:bg-pink-200">
                 <figure>
                   <img
                     src="images/rectangle.png"
@@ -59,7 +71,7 @@
                 </div>
               </div>
               <!-- Parallelogram -->
-            <div class="card bg-base-100 w-96 border-2 border-inherit mb-4 pt-8">
+            <div class="card bg-base-100 w-96 border-2 border-inherit mb-4 pt-8 hover:bg-pink-200">
                 <figure>
                   <img
                     src="images/parallelogram.png"
@@ -80,7 +92,7 @@
                 </div>
               </div>
               <!-- Rhombus -->
-            <div class="card bg-base-100 w-96 border-2 border-inherit mb-4 pt-8">
+            <div class="card bg-base-100 w-96 border-2 border-inherit mb-4 pt-8 hover:bg-sky-400">
                 <figure>
                   <img
                     src="images/rhombus.png"
@@ -101,7 +113,7 @@
                 </div>
               </div>
               <!-- Pentagon -->
-            <div class="card bg-base-100 w-96 border-2 border-inherit mb-4 pt-8">
+            <div class="card bg-base-100 w-96 border-2 border-inherit mb-4 pt-8 hover:bg-sky-400">
                 <figure>
                   <img
                     src="images/pentagon.png"
@@ -122,7 +134,7 @@
                 </div>
               </div>
               <!-- Ellipse -->
-            <div class="card bg-base-100 w-96 border-2 border-inherit pt-8">
+            <div class="card bg-base-100 w-96 border-2 border-inherit pt-8 hover:bg-sky-400">
                 <figure>
                   <img
                     src="images/ellipse.png"
@@ -146,14 +158,14 @@
          <!-- Calculation container  -->
          <div class="w-96 border-2 border-gray- rounded-md p-4">
             <h3 class="text-3xl text-center">
-                Area Calculation
+                <u>Area Calculation</u>
             </h3>
             <p class="text-2xl text-center">Triangle Area: <span id="triangle-area"></span><span> cm<sup>2</sup></span></p>
             <p class="text-2xl text-center">Rectangle Area: <span id="rectangle-area"></span><span> cm<sup>2</sup></span></p>
             <p class="text-2xl text-center">Parallelogram Area: <span id="parallelogram-area"></span><span> cm<sup>2</sup></span></p>
-            <p class="text-2xl text-center">Parallelogram Area: <span id="rhombus-area"></span><span> cm<sup>2</sup></span></p>
-            <p class="text-2xl text-center">Parallelogram Area: <span id="pentagon-area"></span><span> cm<sup>2</sup></span></p>
-            <p class="text-2xl text-center">Parallelogram Area: <span id="ellipse-area"></span><span> cm<sup>2</sup></span></p>
+            <p class="text-2xl text-center">Rhombus Area: <span id="rhombus-area"></span><span> cm<sup>2</sup></span></p>
+            <p class="text-2xl text-center">Pentagon Area: <span id="pentagon-area"></span><span> cm<sup>2</sup></span></p>
+            <p class="text-2xl text-center">Ellipse Area: <span id="ellipse-area"></span><span> cm<sup>2</sup></span></p>
          </div>
        </div>
 
